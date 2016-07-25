@@ -18,10 +18,17 @@ library
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
                      , aeson
+                     , bytestring
+                     , containers
+                     , cookie
+                     , http-types
+                     , semigroups
+                     , servant >= 0.7.1 && < 0.8
                      , servant-server
                      , servant-swagger
                      , swagger2
                      , text
+                     , time
                      , wai
                      , wai-cors
                      , wai-extra

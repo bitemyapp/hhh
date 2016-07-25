@@ -1,6 +1,9 @@
 build:
 	stack build
 
+ghci:
+	stack ghci
+
 run: build
 	stack exec hhh
 
